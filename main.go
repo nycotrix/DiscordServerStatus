@@ -3,12 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/mgerb/ServerStatus/bot"
-	"github.com/mgerb/ServerStatus/config"
-	"github.com/mgerb/ServerStatus/serverstatus"
+	"github.com/nycotrix/DiscordServerStatus/bot"
+	"github.com/nycotrix/DiscordServerStatus/config"
+	"github.com/nycotrix/DiscordServerStatus/serverstatus"
 )
 
-var version = "undefined"
+var version = "0.1"
 
 func init() {
 	fmt.Println("Starting Server Status " + version)
