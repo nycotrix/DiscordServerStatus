@@ -11,8 +11,8 @@ import (
 	portscanner "github.com/anvie/port-scanner"
 	"github.com/bwmarrin/discordgo"
 	steam "github.com/kidoman/go-steam"
-	"github.com/mgerb/ServerStatus/bot"
-	"github.com/mgerb/ServerStatus/config"
+	"github.com/nycotrix/DiscordServerStatus/bot"
+	"github.com/nycotrix/DiscordServerStatus/config"
 )
 
 const (
